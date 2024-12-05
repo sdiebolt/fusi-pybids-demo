@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/version-0.0.9-orange.svg)
 ![](https://img.shields.io/badge/python-3.10_%7C_3.11_%7C_3.12-blue.svg)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sdiebolt/fusi-pybids-demo/HEAD?labpath=fusi_pybids_demo.ipynb)
 
 # Introduction to PyBIDS for fUSI-BIDS datasets
 
@@ -10,8 +11,11 @@ ultrasound imaging (fUSI) datasets using
 
 ## Getting started
 
-To run the tutorial notebook, you will need to clone this repository and have Python and
-Jupyter Lab installed on your system. We recommend using
+You can run the tutorial interactively without installing anything via
+[Binder](https://mybinder.org/v2/gh/sdiebolt/fusi-pybids-demo/HEAD?labpath=fusi_pybids_demo.ipynb)!
+
+To run the tutorial notebook locally, you will need to clone this repository and have
+Python and Jupyter Lab installed on your system. We recommend using
 [uv](https://docs.astral.sh/uv/) to manage the Python environment and dependencies.
 
 1. Clone the repository:
