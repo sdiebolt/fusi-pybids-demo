@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/version-0.0.9-orange.svg)
+![](https://img.shields.io/badge/python-3.10_%7C_3.11_%7C_3.12-blue.svg)
+
 # Introduction to PyBIDS for fUSI-BIDS datasets
 
 This repository contains a tutorial notebook demonstrating how to work with functional
