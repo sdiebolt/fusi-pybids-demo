@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/version-0.0.9-orange.svg)
+![](https://img.shields.io/badge/version-0.0.10-orange.svg)
 ![](https://img.shields.io/badge/python-3.10_%7C_3.11_%7C_3.12-blue.svg)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sdiebolt/fusi-pybids-demo/HEAD?labpath=fusi_pybids_demo.ipynb)
 
