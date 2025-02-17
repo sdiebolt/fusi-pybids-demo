@@ -119,7 +119,7 @@
         },
         {
             "name": "datatype",
-            "pattern": "[/\\\\]+(anat|beh|dwi|eeg|fmap|func|angio|fus|ieeg|meg|micr|motion|mrs|nirs|perf|pet)[/\\\\]+"
+            "pattern": "[/\\\\]+(anat|beh|dwi|eeg|fmap|func|angio|fusi|ieeg|meg|micr|motion|mrs|nirs|perf|pet)[/\\\\]+"
         },
         {
             "name": "extension",
@@ -132,14 +132,14 @@
         "sub-{subject}[/ses-{session}]/{datatype<func>|func}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_ce-{ceagent}][_rec-{reconstruction}][_dir-{direction}][_run-{run}][_echo-{echo}][_part-{part}]_{suffix<bold|cbv|sbref>}{extension<.nii|.nii.gz|.json>|.nii.gz}",
         "sub-{subject}[/ses-{session}]/{datatype<func>|func}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_ce-{ceagent}][_rec-{reconstruction}][_dir-{direction}][_run-{run}][_echo-{echo}]_{suffix<phase>}{extension<.nii|.nii.gz|.json>|.nii.gz}",
         "sub-{subject}[/ses-{session}]/{datatype<angio>|angio}/sub-{subject}[_ses-{session}][_task-{task}][_acq-{acquisition}][_ce-{ceagent}][_rec-{reconstruction}][_run-{run}][_proc-{proc}][_pose-{pose}]_{suffix<pwd>}{extension<.nii|.nii.gz|.json>|.nii.gz}",
-        "sub-{subject}[/ses-{session}]/{datatype<fus>|fus}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_ce-{ceagent}][_rec-{reconstruction}][_run-{run}][_proc-{proc}][_pose-{pose}]_{suffix<pwd|tissuevel>}{extension<.nii|.nii.gz|.json>|.nii.gz}",
-        "sub-{subject}[/ses-{session}]/{datatype<fus>|fus}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_ce-{ceagent}][_rec-{reconstruction}][_run-{run}][_proc-{proc}]_{suffix<transform>}{extension<.npy>}",
+        "sub-{subject}[/ses-{session}]/{datatype<fusi>|fusi}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_ce-{ceagent}][_rec-{reconstruction}][_run-{run}][_proc-{proc}][_pose-{pose}]_{suffix<pwd|tissuevel>}{extension<.nii|.nii.gz|.json>|.nii.gz}",
+        "sub-{subject}[/ses-{session}]/{datatype<fusi>|fusi}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_ce-{ceagent}][_rec-{reconstruction}][_run-{run}][_proc-{proc}]_{suffix<transform>}{extension<.npy>}",
         "sub-{subject}[/ses-{session}]/{datatype<dwi>|dwi}/sub-{subject}[_ses-{session}][_acq-{acquisition}][_rec-{reconstruction}][_dir-{direction}][_run-{run}][_part-{part}][_chunk-<index>]_{suffix<dwi>}{extension<.bval|.bvec|.json|.nii.gz|.nii>|.nii.gz}",
         "sub-{subject}[/ses-{session}]/{datatype<dwi>|dwi}/sub-{subject}[_ses-{session}][_acq-{acquisition}][_rec-{reconstruction}][_dir-{direction}][_run-{run}][_part-{part}][_chunk-<index>]_{suffix<sbref>}{extension<.json|.nii.gz|.nii>|.nii.gz}",
         "sub-{subject}[/ses-{session}]/{datatype<fmap>|fmap}/sub-{subject}[_ses-{session}][_acq-{acquisition}][_dir-{direction}][_run-{run}]_{suffix<phasediff|magnitude[12]|phase[12]|fieldmap>}{extension<.nii|.nii.gz|.json>|.nii.gz}",
         "sub-{subject}[/ses-{session}]/{datatype<fmap>|fmap}/sub-{subject}[_ses-{session}][_acq-{acquisition}][_ce-{ceagent}]_dir-{direction}[_run-{run}]_{suffix<epi|m0scan>}{extension<.nii|.nii.gz|.json>|.nii.gz}",
-        "sub-{subject}[/ses-{session}]/{datatype<func|fus|meg|beh>|func}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_rec-{reconstruction}][_run-{run}][_echo-{echo}][_recording-{recording}]_{suffix<events>}{extension<.tsv|.json>|.tsv}",
-        "sub-{subject}[/ses-{session}]/[{datatype<func|fus|beh>|func}/]sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_rec-{reconstruction}][_run-{run}][_echo-{echo}][_recording-{recording}]_{suffix<physio|stim>}{extension<.tsv.gz|.json>|.tsv.gz}",
+        "sub-{subject}[/ses-{session}]/{datatype<func|fusi|meg|beh>|func}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_rec-{reconstruction}][_run-{run}][_echo-{echo}][_recording-{recording}]_{suffix<events>}{extension<.tsv|.json>|.tsv}",
+        "sub-{subject}[/ses-{session}]/[{datatype<func|fusi|beh>|func}/]sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_rec-{reconstruction}][_run-{run}][_echo-{echo}][_recording-{recording}]_{suffix<physio|stim>}{extension<.tsv.gz|.json>|.tsv.gz}",
         "sub-{subject}[/ses-{session}]/{datatype<meg>|meg}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_run-{run}][_proc-{proc}]_{suffix<meg>}{extension}",
         "sub-{subject}[/ses-{session}]/{datatype<meg>|meg}/sub-{subject}[_ses-{session}]_task-{task}[_acq-{acquisition}][_run-{run}][_proc-{proc}]_{suffix<channels>}{extension<.tsv|.json>|.tsv}",
         "sub-{subject}[/ses-{session}]/{datatype<meg>|meg}/sub-{subject}[_ses-{session}][_acq-{acquisition}]_{suffix<coordsystem>}{extension<.json>|.json}",
